@@ -1,0 +1,54 @@
+# Local history and agent state; keep these files on disk.
+/.agents/
+/.codex/
+/backups/
+/v1/
+/work/
+/docs/pni_manual/
+/docx_render_v2/
+/raspberry_pi_temp_serial_service_v1.py
+/*_v[0-9]*.docx
+
+# Python and editor caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.vscode/
+.idea/
+~$*
+*.tmp
+*.log
+*.bak
+*.bak_*
+
+# Credentials and machine-specific environment files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Keil compiler output and personal IDE state.
+*.o
+*.d
+*.crf
+*.axf
+*.map
+*.lst
+*.lnp
+*.dep
+*.iex
+*.uvguix.*
+*.uvoptx
+*.build_log.htm
+/407_gps初始化失败 - 副本/MDK-ARM/112/*
+!/407_gps初始化失败 - 副本/MDK-ARM/112/112.sct
+/tests/stm32/build/
+
+# Generated test and document output.
+coverage/
+htmlcov/
